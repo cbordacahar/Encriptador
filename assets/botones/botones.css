@@ -1,0 +1,115 @@
+@media screen and (max-width:380px)
+{   
+    .botones
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 24px 16px;
+        width: 343px;
+        height: 158px;
+    }
+
+    .encriptar
+    {
+        width: 343px;
+        height: 67px;
+        background: #0A3871;
+        border-radius: 24px;
+        padding: 24px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    .desencriptar
+    {
+        width: 343px;
+        height: 67px;
+        background: #F3F5FC;
+        border-radius: 24px;
+        padding: 24px;
+        border: 1px solid #0A3871;
+        margin-top: 24px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        line-height: 19px;
+        color: #0A3871;
+    }
+}
+
+@media screen and (min-width: 381px) 
+{
+    .botones
+    {
+        position: absolute;
+        margin-top: 870px;
+        margin-left: 40px;
+        width: 688px;
+        height: 67px;
+    }
+
+    .encriptar
+    {
+        background: #0A3871;
+        width: 332px;
+        height: 67px;
+        padding: 24px;
+        border-radius: 24px;
+        margin-top: 16px;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .desencriptar
+    {
+        background: #F3F5FC;
+        width: 332px;
+        height: 67px;
+        padding: 24px;
+        border-radius: 24px;
+        border: 1px solid #0A3871;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #0A3871;
+    }
+}
+
+@media screen and (min-width: 768px) 
+{
+    .botones
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        width: 680px;
+        height: 67px;
+        margin-top: 16px;
+        margin-left: 240px;
+    }
+
+    .encriptar
+    {
+        margin-right: 24px;
+    }    
+}
+

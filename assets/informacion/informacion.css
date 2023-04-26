@@ -1,0 +1,74 @@
+@media screen and (max-width:380px)
+{   
+    .informacion__contenido
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 229px;
+        height: 18px;
+        margin-top: 300px;
+        margin-left: 16px;
+
+
+    }
+
+    .informacion__contenido h3
+    {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #495057;
+    }
+}
+
+@media screen and (min-width: 381px) and (max-width: 767px)
+{
+    .informacion__contenido
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        top: 962px;
+        left: 50px;
+    }
+
+    .informacion__contenido h3
+    {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #495057;
+        margin-left: 8px;
+    }
+}
+
+
+@media screen and (min-width: 768px) 
+{
+    .informacion__contenido
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 229px;
+        height: 18px;
+        margin-left: 240px;
+        margin-top: 635px;
+    }
+
+    .informacion__contenido h3
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+    }
+}
